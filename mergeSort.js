@@ -26,6 +26,4 @@ function merge(leftArr, rightArr) {
   ];
 }
 
-console.log(mergeSort([9, 5, 3, 1, 8, 7, 2, 0]));
-
 module.exports = mergeSort;

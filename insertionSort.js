@@ -8,5 +8,4 @@ function insertionSort(unsortedArr) {
   return arr;
 }
 
-console.log(insertionSort([8, 7, 6, 5, 2, 3, 1]));
 module.exports = insertionSort;

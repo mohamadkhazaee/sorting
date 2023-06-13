@@ -32,6 +32,4 @@ function countingSort(arr, divisor) {
   arr.splice(0, arr.length, ...sortedArray);
 }
 
-// Usage example
-const array = [170, 45, 75, 90, 802, 24, 2, 66];
-console.log(radixSort(arr));
+module.exports = radixSort;

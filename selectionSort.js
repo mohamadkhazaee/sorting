@@ -13,5 +13,5 @@ function selectionSort(unsortedArr) {
   }
   return arr;
 }
-console.log(selectionSort([6, 4, 8, 92, 0, 1]));
+
 module.exports = selectionSort;

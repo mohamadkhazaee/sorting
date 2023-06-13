@@ -34,6 +34,4 @@ function countSort(array) {
   return sorted;
 }
 
-const array = [7, 2, 4, 1, 3, 7, 5, 4, 6, 3];
-const sortedArray = countSort(array);
-console.log(sortedArray);
+module.exports = countSort;
